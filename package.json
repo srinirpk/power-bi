@@ -1,0 +1,7 @@
+{
+  "name": "powerbi_client",
+  "private": true,
+  "dependencies": {
+    "powerbi-client": "^2.14.0"
+  }
+}

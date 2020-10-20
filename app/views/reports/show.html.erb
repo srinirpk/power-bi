@@ -1,0 +1,21 @@
+Report
+
+
+
+
+
+
+
+<input type="hidden" value="<%= @embed_token%>" id="accessToken" />
+<input type="hidden" value="<%= @report[:embedUrl]%>" id="embedURL" />
+<input type="hidden" value="<%= @report[:id]%>" id="reportId" />
+
+
+
+<div id = "reportContainer"></div>
+<script type="text/javascript">
+
+$(document).ready(function() {
+  generate_report();
+});
+</script>

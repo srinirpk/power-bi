@@ -1,0 +1,17 @@
+Power BI - Report Listing
+
+
+
+<ul>
+<% @reports.each do |report| -%>
+<li><%= link_to "Report #{report['name']}", reports_path(:id=>report['id'],:datasets=>report['datasetId'])%></li>
+<%end -%>
+</ul>
+<div id = "reportContainer"></div>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+  // generate_report();
+});
+</script>

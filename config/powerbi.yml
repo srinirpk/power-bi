@@ -1,0 +1,13 @@
+
+development:
+  client_id: "<specific client id>"
+  client_secret: "<specific client secret>"
+  tenant_id: "<specific tenant id>"
+  workspace_id: "<specific workspace id>"
+test:
+  client_id: "<specific client id>"
+  client_secret: "<specific client secret>"
+  tenant_id: "<specific tenant id>"
+  workspace_id: "<specific workspace id>"
+
+

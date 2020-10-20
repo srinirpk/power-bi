@@ -1,0 +1,10 @@
+default: &DEFAULT
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  host: localhost
+
+development:
+  <<: *DEFAULT
+  database: powerbi_development
